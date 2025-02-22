@@ -1,0 +1,38 @@
+[
+  {
+    "astraeaID": "1001",
+    "name": "Amit Sharma",
+    "city": "Delhi",
+    "college": "IIT Delhi"
+  },
+  {
+    "astraeaID": "1002",
+    "name": "Priya Verma",
+    "city": "Mumbai",
+    "college": "Mumbai University"
+  },
+  {
+    "astraeaID": "1003",
+    "name": "Rajesh Kumar",
+    "city": "Bengaluru",
+    "college": "IISc Bangalore"
+  },
+  {
+    "astraeaID": "1004",
+    "name": "Neha Patil",
+    "city": "Pune",
+    "college": "Fergusson College"
+  },
+  {
+    "astraeaID": "1005",
+    "name": "Vikram Singh",
+    "city": "Delhi",
+    "college": "DU"
+  },
+  {
+    "astraeaID": "1006",
+    "name": "Shivam",
+    "city": "Bhopal",
+    "college": "NIT"
+  }
+]
