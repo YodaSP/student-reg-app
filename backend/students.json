@@ -34,5 +34,17 @@
     "name": "Shivam",
     "city": "Bhopal",
     "college": "NIT"
+  },
+  {
+    "astraeaID": "2",
+    "name": "Shivam",
+    "city": "Varanasi",
+    "college": "BHU"
+  },
+  {
+    "astraeaID": "10052",
+    "name": "Yoda",
+    "city": "Pune",
+    "college": "SSP"
   }
 ]
