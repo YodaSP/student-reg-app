@@ -7,6 +7,11 @@ function logout() {
     window.location.href = "admin.html";
 }
 
+document.getElementById('logoutButton').addEventListener('click', function() {
+    alert('Logged out successfully!');
+    window.location.href = 'admin.html';
+});
+
 // Fetch students and populate table
 async function loadStudents() {
     const response = await fetch("http://localhost:5000/api/students");
@@ -55,8 +60,8 @@ function loadStudentStats(students) {
     const maxCity = cities[studentCounts.indexOf(Math.max(...studentCounts))];
     console.log(`City with most students: ${maxCity}`);
 
-    // Generate Pie Chart
     const ctxPie = document.getElementById("cityPieChart").getContext("2d");
+
     new Chart(ctxPie, {
         type: "pie",
         data: {
@@ -68,9 +73,17 @@ function loadStudentStats(students) {
         },
         options: {
             responsive: true,
-            animation: { duration: 1500 }
+            animation: { duration: 1500 },
+            plugins: {
+                legend: {
+                    labels: {
+                        color: "white"  // 🔹 Sets the text color to white
+                    }
+                }
+            }
         }
     });
+    
 }
 
 loadStudents();

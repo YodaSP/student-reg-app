@@ -46,5 +46,11 @@
     "name": "Yoda",
     "city": "Pune",
     "college": "SSP"
+  },
+  {
+    "astraeaID": "1007",
+    "name": "Yoda",
+    "city": "BhubhaneshwaR",
+    "college": "ocs"
   }
 ]
