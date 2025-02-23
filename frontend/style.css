@@ -135,3 +135,9 @@ button::after {
 }
 
 
+@media (max-width: 600px) {
+    table {
+        font-size: smaller;
+    }
+    /* Additional responsive styles */
+}

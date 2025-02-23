@@ -64,5 +64,11 @@
     "name": "Tarun",
     "city": "Bhopal",
     "college": "SVIC"
+  },
+  {
+    "astraeaID": "10010",
+    "name": "Reshu",
+    "city": "Kolkata",
+    "college": "BLRC"
   }
 ]
