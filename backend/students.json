@@ -52,5 +52,17 @@
     "name": "Yoda",
     "city": "BhubhaneshwaR",
     "college": "ocs"
+  },
+  {
+    "astraeaID": "1008",
+    "name": "Sonal",
+    "city": "Pune",
+    "college": "ABC"
+  },
+  {
+    "astraeaID": "10082",
+    "name": "Tarun",
+    "city": "Bhopal",
+    "college": "SVIC"
   }
 ]
